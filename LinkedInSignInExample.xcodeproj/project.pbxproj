@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C200A33F2377122E00902A2A /* LinkedInConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200A33E2377122E00902A2A /* LinkedInConstants.swift */; };
+		C200A3442377132200902A2A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200A3432377132200902A2A /* Extensions.swift */; };
+		C200A3462377135D00902A2A /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C200A3452377135D00902A2A /* DetailsViewController.swift */; };
+		C22DB0662375073000682881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22DB0652375073000682881 /* AppDelegate.swift */; };
+		C22DB0682375073000682881 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22DB0672375073000682881 /* SceneDelegate.swift */; };
+		C22DB06A2375073000682881 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22DB0692375073000682881 /* LoginViewController.swift */; };
+		C22DB06D2375073000682881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22DB06B2375073000682881 /* Main.storyboard */; };
+		C22DB06F2375073100682881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C22DB06E2375073100682881 /* Assets.xcassets */; };
+		C22DB0722375073100682881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22DB0702375073100682881 /* LaunchScreen.storyboard */; };
+		C2392CA323786BA4008CD612 /* LinkedInEmailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2392CA223786BA4008CD612 /* LinkedInEmailModel.swift */; };
+		C2392CA523786C9D008CD612 /* LinkedInProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2392CA423786C9D008CD612 /* LinkedInProfileModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C200A33E2377122E00902A2A /* LinkedInConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedInConstants.swift; sourceTree = "<group>"; };
+		C200A3432377132200902A2A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C200A3452377135D00902A2A /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		C22DB0622375073000682881 /* LinkedInSignInExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkedInSignInExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C22DB0652375073000682881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C22DB0672375073000682881 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C22DB0692375073000682881 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C22DB06C2375073000682881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C22DB06E2375073100682881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C22DB0712375073100682881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C22DB0732375073100682881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2392CA223786BA4008CD612 /* LinkedInEmailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedInEmailModel.swift; sourceTree = "<group>"; };
+		C2392CA423786C9D008CD612 /* LinkedInProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedInProfileModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C22DB05F2375073000682881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C200A3422377130B00902A2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C200A3432377132200902A2A /* Extensions.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C22DB0592375073000682881 = {
+			isa = PBXGroup;
+			children = (
+				C22DB0642375073000682881 /* LinkedInSignInExample */,
+				C22DB0632375073000682881 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C22DB0632375073000682881 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C22DB0622375073000682881 /* LinkedInSignInExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C22DB0642375073000682881 /* LinkedInSignInExample */ = {
+			isa = PBXGroup;
+			children = (
+				C2392CA123786B8D008CD612 /* Model */,
+				C200A3422377130B00902A2A /* Supporting Files */,
+				C22DB0652375073000682881 /* AppDelegate.swift */,
+				C22DB0672375073000682881 /* SceneDelegate.swift */,
+				C22DB0692375073000682881 /* LoginViewController.swift */,
+				C200A3452377135D00902A2A /* DetailsViewController.swift */,
+				C200A33E2377122E00902A2A /* LinkedInConstants.swift */,
+				C22DB06B2375073000682881 /* Main.storyboard */,
+				C22DB06E2375073100682881 /* Assets.xcassets */,
+				C22DB0702375073100682881 /* LaunchScreen.storyboard */,
+				C22DB0732375073100682881 /* Info.plist */,
+			);
+			path = LinkedInSignInExample;
+			sourceTree = "<group>";
+		};
+		C2392CA123786B8D008CD612 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2392CA223786BA4008CD612 /* LinkedInEmailModel.swift */,
+				C2392CA423786C9D008CD612 /* LinkedInProfileModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C22DB0612375073000682881 /* LinkedInSignInExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C22DB0762375073100682881 /* Build configuration list for PBXNativeTarget "LinkedInSignInExample" */;
+			buildPhases = (
+				C22DB05E2375073000682881 /* Sources */,
+				C22DB05F2375073000682881 /* Frameworks */,
+				C22DB0602375073000682881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinkedInSignInExample;
+			productName = LinkedInSignInExample;
+			productReference = C22DB0622375073000682881 /* LinkedInSignInExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C22DB05A2375073000682881 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "John Codeos";
+				TargetAttributes = {
+					C22DB0612375073000682881 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = C22DB05D2375073000682881 /* Build configuration list for PBXProject "LinkedInSignInExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C22DB0592375073000682881;
+			productRefGroup = C22DB0632375073000682881 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C22DB0612375073000682881 /* LinkedInSignInExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C22DB0602375073000682881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22DB0722375073100682881 /* LaunchScreen.storyboard in Resources */,
+				C22DB06F2375073100682881 /* Assets.xcassets in Resources */,
+				C22DB06D2375073000682881 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C22DB05E2375073000682881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C200A3442377132200902A2A /* Extensions.swift in Sources */,
+				C22DB06A2375073000682881 /* LoginViewController.swift in Sources */,
+				C2392CA323786BA4008CD612 /* LinkedInEmailModel.swift in Sources */,
+				C200A33F2377122E00902A2A /* LinkedInConstants.swift in Sources */,
+				C22DB0662375073000682881 /* AppDelegate.swift in Sources */,
+				C2392CA523786C9D008CD612 /* LinkedInProfileModel.swift in Sources */,
+				C22DB0682375073000682881 /* SceneDelegate.swift in Sources */,
+				C200A3462377135D00902A2A /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C22DB06B2375073000682881 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C22DB06C2375073000682881 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C22DB0702375073100682881 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C22DB0712375073100682881 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C22DB0742375073100682881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C22DB0752375073100682881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C22DB0772375073100682881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6P8Q9Q6J62;
+				INFOPLIST_FILE = LinkedInSignInExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LinkedInSignInExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C22DB0782375073100682881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6P8Q9Q6J62;
+				INFOPLIST_FILE = LinkedInSignInExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.LinkedInSignInExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C22DB05D2375073000682881 /* Build configuration list for PBXProject "LinkedInSignInExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22DB0742375073100682881 /* Debug */,
+				C22DB0752375073100682881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C22DB0762375073100682881 /* Build configuration list for PBXNativeTarget "LinkedInSignInExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C22DB0772375073100682881 /* Debug */,
+				C22DB0782375073100682881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C22DB05A2375073000682881 /* Project object */;
+}
