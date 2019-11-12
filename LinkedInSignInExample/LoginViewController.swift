@@ -103,7 +103,7 @@ extension LoginViewController: WKNavigationDelegate {
     func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
         RequestForCallbackURL(request: navigationAction.request)
         
-        //Close the View Controller after Callback URL
+        //Close the View Controller after getting the authorization code
         if let urlStr = navigationAction.request.url?.absoluteString {
             if urlStr.contains("?code=") {
                 self.dismiss(animated: true, completion: nil)
@@ -174,7 +174,7 @@ extension LoginViewController: WKNavigationDelegate {
                 print("LinkedIn Access Token: \(accessToken)")
                 self.linkedInAccessToken = accessToken
                 
-                // LinkedIn Username
+                // LinkedIn Id
                 let linkedinId: String! = linkedInProfileModel?.id
                 print("LinkedIn Id: \(linkedinId ?? "")")
                 self.linkedInId = linkedinId
